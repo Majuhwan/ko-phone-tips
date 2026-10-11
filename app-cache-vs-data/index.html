@@ -1,0 +1,75 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>앱 캐시와 앱 데이터, 무엇이 다를까 | 스마트폰 활용</title><meta name="description" content="캐시와 앱 데이터는 비슷해 보여도 성격이 달라요. 아이폰의 앱 정리와 삭제 차이를 포함해 공식 안내 기준으로 구분해 설명해요."><link rel="canonical" href="https://phone-tips.howlane.com/app-cache-vs-data/">
+<meta property="og:type" content="article"><meta property="og:locale" content="ko_KR"><meta property="og:site_name" content="스마트폰 활용"><meta property="og:title" content="앱 캐시와 앱 데이터, 무엇이 다를까 | 스마트폰 활용"><meta property="og:description" content="캐시와 앱 데이터는 비슷해 보여도 성격이 달라요. 아이폰의 앱 정리와 삭제 차이를 포함해 공식 안내 기준으로 구분해 설명해요."><meta property="og:url" content="https://phone-tips.howlane.com/app-cache-vs-data/"><meta property="article:published_time" content="2026-10-11"><meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#3d5a99"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="스마트폰 활용" href="/feed.xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>:root{--fg:#1d1f23;--muted:#5b616b;--line:#e6e6e2;--bg:#fbfbf9;--card:#fff;--soft:#f3f3ef;--a:#2f6f5e}*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;font:17px/1.75 "Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;color:var(--fg);background:var(--bg);word-break:keep-all;overflow-wrap:anywhere}a{color:var(--a)}.wrap{max-width:760px;margin:0 auto;padding:0 20px}header.top{border-bottom:1px solid var(--line);background:var(--card)}header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}.brand{display:flex;gap:10px;align-items:center;font-weight:700;color:var(--fg);text-decoration:none;font-size:17px}nav a{margin-left:18px;color:var(--muted);text-decoration:none;font-size:15px}nav a:hover{color:var(--fg)}main{padding:36px 0 56px}h1{font-size:30px;line-height:1.35;margin:0 0 12px;letter-spacing:-.02em}.lead{color:var(--muted);margin:0 0 28px}.list{list-style:none;padding:0;margin:0}.list li{padding:18px 0;border-bottom:1px solid var(--line)}.list a{font-size:19px;font-weight:650;text-decoration:none;color:var(--fg)}.list a:hover{color:var(--a)}.list p{margin:6px 0 0;color:var(--muted);font-size:15.5px}.meta{color:var(--muted);font-size:14px;margin:0 0 22px}.crumb{font-size:14px;color:var(--muted);margin-bottom:14px}.crumb a{color:var(--muted)}.note{background:var(--soft);border-left:4px solid var(--a);padding:12px 16px;border-radius:6px;font-size:15px;color:#3b3f46;margin:0 0 26px}.body h2{font-size:22px;margin:38px 0 10px;line-height:1.4}.body h3{font-size:18px;margin:26px 0 8px}.body p{margin:0 0 16px}.body ul,.body ol{padding-left:22px;margin:0 0 18px}.body li{margin:4px 0}.body table{border-collapse:collapse;width:100%;margin:6px 0 22px;font-size:15.5px}.body th,.body td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}.body th{background:var(--soft)}.photo{border:1px dashed #c9c9c2;border-radius:8px;padding:14px;color:var(--muted);font-size:14px;margin:0 0 18px}.body img{display:block;max-width:100%;height:auto;border-radius:8px;margin:6px 0 4px}.body .cap{font-size:13px;color:var(--muted);margin:0 0 20px}.src{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:15px}.src h2{font-size:17px;margin:0 0 8px}.src ol{padding-left:20px;margin:0}.src li{margin:4px 0;color:var(--muted)}.rel{margin-top:34px}.rel h2{font-size:17px}.pager{display:flex;justify-content:space-between;margin-top:26px;font-size:15px}.preview{background:#fff4d6;border-bottom:1px solid #ecd28c;text-align:center;font-size:14px;padding:6px}footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--muted);font-size:14px}footer a{color:var(--muted)}footer p+p a{margin-right:14px}.groups h2{font-size:18px;margin:34px 0 6px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}.site{display:block;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--fg)}.site b{display:block}.site span{color:var(--muted);font-size:14px}@media (max-width:640px){body{font-size:16.5px}h1{font-size:25px}nav a{margin-left:12px}.body table{display:block;overflow-x:auto}}@media (prefers-color-scheme:dark){:root{--fg:#e9e9e6;--muted:#a3a7ad;--line:#2d2f33;--bg:#141517;--card:#1a1b1e;--soft:#1f2125}.note{color:#cfd2d6}.preview{background:#4a3d16;border-color:#6b5820;color:#f2e3b5}}:root{--a:#3d5a99}</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"앱 캐시와 앱 데이터, 무엇이 다를까","description":"캐시와 앱 데이터는 비슷해 보여도 성격이 달라요. 아이폰의 앱 정리와 삭제 차이를 포함해 공식 안내 기준으로 구분해 설명해요.","datePublished":"2026-10-11","dateModified":"2026-10-11","inLanguage":"ko","mainEntityOfPage":"https://phone-tips.howlane.com/app-cache-vs-data/","keywords":"앱 캐시, 앱 데이터, 저장공간","author":{"@type":"Organization","name":"스마트폰 활용 편집","url":"https://phone-tips.howlane.com/"},"publisher":{"@type":"Organization","name":"Howlane","url":"https://ko.howlane.com/"},"citation":["https://support.apple.com/ko-kr/108429","https://support.google.com/android/answer/7431795?hl=ko","https://www.samsungsvc.co.kr/solution/41004"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"스마트폰 활용","item":"https://phone-tips.howlane.com/"},{"@type":"ListItem","position":2,"name":"앱 캐시와 앱 데이터, 무엇이 다를까","item":"https://phone-tips.howlane.com/app-cache-vs-data/"}]}</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b75d05febab747229829916b4d3ecbff"}'></script></head><body>
+<header class="top"><div class="wrap"><a class="brand" href="/"><svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#3d5a99"/><text x="16" y="21.5" font-size="15" font-weight="700" text-anchor="middle" fill="#fff" font-family="-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">스</text></svg><span>스마트폰 활용</span></a><nav><a href="/">글 목록</a><a href="/about/">소개</a><a href="/feed.xml">RSS</a></nav></div></header>
+<main><div class="wrap"><nav class="crumb"><a href="/">스마트폰 활용</a></nav><article><h1>앱 캐시와 앱 데이터, 무엇이 다를까</h1>
+<p class="meta">게시 2026년 10월 11일 · 공식 자료 확인 2026년 10월 11일 · 2027년 03월 다시 확인 예정</p>
+<div class="body"><p>저장공간이 부족하면 &#39;캐시를 지우라&#39;는 말을 자주 들어요. 하지만 캐시와 앱 데이터를 같은 것으로 보면 필요한 정보까지 지울 수 있어요. 이 글은 2026년 10월에 확인한 Apple, Google, 삼성 공식 안내를 기준으로 해요. 메뉴 이름은 OS 버전과 기기에 따라 다를 수 있어요.</p>
+<h2>캐시는 무엇일까</h2>
+<p>캐시는 다음에 더 빨리 보여 주려고 시스템이 임시로 저장해 두는 파일이에요. Apple은 콘텐츠를 스트리밍하거나 볼 때 시스템이 이런 파일을 만들어 다음에 더 빠르게 접근하게 한다고 설명해요. 그리고 기기에 더 많은 공간이 필요하면 이런 파일이 기기에서 제거된다고 안내해요. 그래서 아이폰에서는 캐시된 파일을 따로 지우지 않아도 된다고 해요.</p>
+<h2>앱 데이터는 무엇일까</h2>
+<p>앱 데이터는 앱이 만든 문서나 저장된 정보를 말해요. Apple 안내에 따르면 아이폰에서 앱을 &#39;정리&#39;하면 앱 자체가 차지하던 공간은 확보되지만, 앱에서 생성된 문서와 데이터는 기기에 남아요. 반대로 앱을 &#39;삭제&#39;하면 앱과 관련 데이터가 함께 삭제돼요.</p>
+<table>
+<thead>
+<tr>
+<th>작업</th>
+<th>앱</th>
+<th>문서·데이터</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>앱 정리(아이폰)</td>
+<td>지워짐</td>
+<td>남음</td>
+</tr>
+<tr>
+<td>앱 삭제</td>
+<td>지워짐</td>
+<td>함께 지워짐</td>
+</tr>
+</tbody></table>
+<h2>어떤 걸 고를까</h2>
+<ol>
+<li>나중에 다시 쓸 앱이고 데이터를 유지하고 싶다면 정리를 고려해요.</li>
+<li>더 이상 쓰지 않는 앱이라면 삭제를 고려해요.</li>
+<li>로그인 정보나 작업물이 앱 안에만 있다면 지우기 전에 백업이 가능한지 확인해요.</li>
+</ol>
+<h2>안드로이드와 갤럭시에서는</h2>
+<p>Google은 저장용량 화면에서 사용량을 확인하고 파일을 선택해 정리하라고 안내해요. 삼성은 디바이스 케어에서 &#39;지금 최적화&#39;를 누르면 저장공간 확보와 불필요한 파일 정리, 백그라운드 앱 정리를 한꺼번에 할 수 있다고 안내해요. Google은 보통 휴대전화의 설정 앱에서 앱의 캐시와 데이터를 지울 수 있다고 안내하지만 설정은 기기마다 달라요. 두 항목은 이렇게 달라요.</p>
+<table>
+<thead>
+<tr>
+<th>메뉴</th>
+<th>Google 안내</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>캐시 지우기</td>
+<td>임시 데이터를 삭제해요. 일부 앱은 다음에 열 때 느려질 수 있어요</td>
+</tr>
+<tr>
+<td>저장용량 비우기</td>
+<td>모든 앱 데이터를 완전히 삭제해요. 앱 내 데이터를 먼저 삭제해 보라고 안내해요</td>
+</tr>
+</tbody></table>
+<h2>지우고 나서 일어날 수 있는 일</h2>
+<p>앱 데이터를 모두 지우면 앱 안의 설정과 저장된 내용이 사라져요. 그래서 캐시부터 지워 보고, 그래도 공간이 모자랄 때 데이터를 지우는 순서가 안전해요. 지운 뒤 앱이 처음 실행하는 것처럼 보이면 로그인이나 설정이 필요할 수 있으니, 계정 정보를 확인한 뒤에 진행하세요.</p>
+<h2>저장 공간 화면에서 읽는 법</h2>
+<p>아이폰의 저장 공간 화면에서 앱 이름을 누르면 앱 크기와 문서 및 데이터 크기를 볼 수 있어요. Apple은 이 사용량에 캐시된 데이터와 임시 데이터가 포함되지 않을 수 있다고 설명해요. 그래서 화면에 보이는 숫자와 실제로 쓰는 공간이 조금 다를 수 있어요. 또 iCloud Drive 콘텐츠는 자동으로 삭제할 수 없다고 안내하니, 클라우드에 있는 파일은 파일 앱에서 직접 확인하세요.</p>
+<h2>핵심 정리</h2>
+<ul>
+<li>캐시는 임시 파일이고, 앱 데이터는 앱이 만든 문서와 정보예요.</li>
+<li>아이폰은 필요할 때 캐시를 시스템이 알아서 제거한다고 Apple이 안내해요.</li>
+<li>아이폰의 앱 정리는 데이터를 남기고, 삭제는 데이터까지 지워요.</li>
+<li>갤럭시는 디바이스 케어의 최적화로 한꺼번에 정리할 수 있어요.</li>
+<li>데이터를 지우기 전에는 계정과 백업을 확인해요.</li>
+</ul>
+</div>
+<section class="src"><h2>참고한 공식 자료</h2><ol><li><a href="https://support.apple.com/ko-kr/108429" rel="noopener nofollow" target="_blank">Apple 지원 iPhone 및 iPad 저장 공간 확인</a></li><li><a href="https://support.google.com/android/answer/7431795?hl=ko" rel="noopener nofollow" target="_blank">Android 고객센터 저장용량 확보하기</a></li><li><a href="https://www.samsungsvc.co.kr/solution/41004" rel="noopener nofollow" target="_blank">삼성전자서비스 갤럭시 불필요한 파일 및 앱 정리</a></li></ol></section></article>
+<section class="rel"><h2>함께 보면 좋은 글</h2><ul class="list"><li><a href="/duplicate-photos-cleanup/">중복 사진 정리하는 방법</a></li><li><a href="/storage-full-cleanup-order/">저장공간 부족할 때 정리 순서</a></li></ul></section>
+<div class="pager"><span><a href="/duplicate-photos-cleanup/">이전 글</a></span><span><a href="/phone-slow-checklist/">다음 글</a></span></div></div></main>
+<footer><div class="wrap"><p>스마트폰 활용 · <a href="https://ko.howlane.com/">Howlane</a>의 한국어 생활 정보 사이트</p><p><a href="/about/">소개</a><a href="/privacy/">개인정보처리방침</a><a href="/feed.xml">RSS</a></p></div></footer>
+</body></html>

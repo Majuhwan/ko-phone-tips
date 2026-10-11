@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://phone-tips.howlane.com/sitemap.xml
